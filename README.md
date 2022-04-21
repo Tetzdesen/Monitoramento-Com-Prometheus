@@ -8,14 +8,22 @@ Tutorial desenvolvido para o monitoramento de recursos de uma máquina, utilizan
 - [Docker](https://react-pdf.org/)
 - [Docker-Compose](https://docs.docker.com/compose/)
 
+</br>
+
 ## Install Docker
 sudo apt install docker.io
+
+</br>
 
 ## Install docker-compose
 sudo apt install docker-compose
 
+</br>
+
 ## docker-compose.yml
 Arquivo utilizado para levantar os devidos container's do tutorial.
+
+</br>
 
 ## prometheus.yml
 Arquivo de configuração do prometheus.
