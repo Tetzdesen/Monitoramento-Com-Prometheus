@@ -15,8 +15,8 @@ Tutorial desenvolvido para o monitoramento de recursos de uma máquina, utilizan
 
 ## Instalar Docker e Docker-compose
 ```
-sudo apt install docker.io
-sudo apt install docker-compose
+$ sudo apt install docker.io
+$ sudo apt install docker-compose
 ```
 
 ## docker-compose.yml
