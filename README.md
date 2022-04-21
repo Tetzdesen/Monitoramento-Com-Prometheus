@@ -9,6 +9,9 @@ Tutorial desenvolvido para o monitoramento de recursos de uma máquina, utilizan
 ![Badge](https://img.shields.io/static/v1?label=Grafana&message=Grafana&color=blue&style=for-the-badge&logo=GRAFANA)
 - [Docker](https://www.docker.com/)
 - [Docker-Compose](https://docs.docker.com/compose/)
+- [Prometheus](https://prometheus.io/)
+- [Grafana](https://grafana.com/grafana/)
+
 
 ## Instalar Docker e Docker-compose
 ```
