@@ -1,8 +1,8 @@
-# Monitoring-Com-Prometheus
+# Monitoramento Com Prometheus
 
 ## Sobre
 Tutorial desenvolvido para o monitoramento de recursos de uma máquina, utilizando um exportador do prometheus (node exporter).
- 
+
 ## Dependências e tecnologias
 ![Badge](https://img.shields.io/static/v1?label=DOCKER&message=DOCKER&color=blue&style=for-the-badge&logo=DOCKER)
 ![Badge](https://img.shields.io/static/v1?label=Prometheus&message=Prometheus&color=blue&style=for-the-badge&logo=PROMETHEUS)
