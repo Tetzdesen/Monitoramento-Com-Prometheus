@@ -61,6 +61,77 @@ $ cd docker
 $ sudo docker-compose up -d
 ```
 
+## Cheque os Container's
+```
+$ sudo docker ps
+```
+
+## Configuração do grafana
+#### Access http://127.0.0.1:3000 
+- User: admin 
+- Password: freerouter
+
+- Once installed configure Prometheus as Grafana data source.
+<div style='display: inline-block'>
+   <img align="center" alt="Python" src='img-grafana/img-01.png' />
+</div>
+
+</br>
+
+- Fill in all the prometheus server information.
+<div style='display: inline-block'>
+   <img align="center" alt="Python" src='img-grafana/img-02.png' />
+</div>
+
+</br>
+
+- Check the the data source is defined correctly by clicking the "Save & test" button.
+<div style='display: inline-block'>
+   <img align="center" alt="Python" src='img-grafana/img-03.png' />
+</div>
+
+</br>
+
+## Verification
+
+### Verification Prometheus
+- Access Prometheus - http://127.0.0.1:9090
+
+- Access Targets
+
+- Verify router's up
+
+<div style='display: inline-block'>
+   <img align="center" alt="Python" src='img-grafana/img-05.png' />
+</div>
+
+</br>
+
+### Verification Grafana
+
+- Download freeRouter interface bytes dashboard [here.](https://grafana.com/grafana/dashboards/13153)
+<div style='display: inline-block'>
+   <img align="center" alt="Python" src='img-grafana/img-06.png' />
+</div>
+
+</br>
+
+- Access Grafana - http://127.0.0.1:3000
+
+
+- Import Dashboard RARE/freeRouter 
+<div style='display: inline-block'>
+   <img align="center" alt="Python" src='img-grafana/img-07.png' />
+</div>
+
+</br>
+
+- Dashboard Verify
+<div style='display: inline-block'>
+   <img align="center" alt="Python" src='img-grafana/img-08.png' />
+</div>
+
+
 
 
 
