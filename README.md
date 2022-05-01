@@ -67,28 +67,20 @@ $ sudo docker ps
 ```
 
 ## Configuração do grafana
-#### Access http://127.0.0.1:3000 
-- User: admin 
-- Password: freerouter
+#### Acesse http://127.0.0.1:3000 
+- Usuário: admin 
+- Senha: tutorial2022
 
-- Once installed configure Prometheus as Grafana data source.
+- Configure o prometheus como um banco de dados do Grafana.
 <div style='display: inline-block'>
    <img align="center" alt="Python" src='img-grafana/img-01.png' />
 </div>
 
 </br>
 
-- Fill in all the prometheus server information.
-<div style='display: inline-block'>
-   <img align="center" alt="Python" src='img-grafana/img-02.png' />
-</div>
-
-</br>
-
-- Check the the data source is defined correctly by clicking the "Save & test" button.
-<div style='display: inline-block'>
-   <img align="center" alt="Python" src='img-grafana/img-03.png' />
-</div>
+- Coloque as configurações de seu endereço de servidor Prometheus.
+- Endereço do servidor: http://seuip:9090
+- Salve as configurações
 
 </br>
 
