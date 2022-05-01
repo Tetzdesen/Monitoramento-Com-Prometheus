@@ -65,62 +65,31 @@ $ sudo docker-compose up -d
 ```
 $ sudo docker ps
 ```
+## Cheque se Server Prometheus foi levantado
 
-## Configuração do grafana
-#### Acesse http://127.0.0.1:3000 
-- Usuário: admin 
-- Senha: tutorial2022
+- Acesse http://localhost:9090
+- Verifique os targerts
 
-- Configure o prometheus como um banco de dados do Grafana.
-<div style='display: inline-block'>
-   <img align="center" alt="Python" src='img-grafana/img-01.png' />
-</div>
+## Cheque se o Grafana Server foi levantado
 
-</br>
+- Acesse http://localhost:3000
+    - Usuário: admin
+    - Senha: tutorial2022
 
+## Verificação
+
+## Verificação Prometheus
 - Coloque as configurações de seu endereço de servidor Prometheus.
 - Endereço do servidor: http://seuip:9090
-- Salve as configurações
+- Salve as configurações.
 
-</br>
 
-## Verification
-
-### Verification Prometheus
-- Access Prometheus - http://127.0.0.1:9090
-
-- Access Targets
-
-- Verify router's up
-
+### Verificação Grafana
+### Acesse o dashboard do node exporter e faça o download
+[Node Dashboard](https://grafana.com/grafana/dashboards/1860)
+- Verifique o dashboard
 <div style='display: inline-block'>
-   <img align="center" alt="Python" src='img-grafana/img-05.png' />
-</div>
-
-</br>
-
-### Verification Grafana
-
-- Download freeRouter interface bytes dashboard [here.](https://grafana.com/grafana/dashboards/13153)
-<div style='display: inline-block'>
-   <img align="center" alt="Python" src='img-grafana/img-06.png' />
-</div>
-
-</br>
-
-- Access Grafana - http://127.0.0.1:3000
-
-
-- Import Dashboard RARE/freeRouter 
-<div style='display: inline-block'>
-   <img align="center" alt="Python" src='img-grafana/img-07.png' />
-</div>
-
-</br>
-
-- Dashboard Verify
-<div style='display: inline-block'>
-   <img align="center" alt="Python" src='img-grafana/img-08.png' />
+   <img align="center" alt="Python" src='grafana-img/img-10.png' />
 </div>
 
 
