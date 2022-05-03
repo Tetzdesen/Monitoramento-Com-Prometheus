@@ -86,7 +86,7 @@ $ sudo docker ps
 
 ## Verificação Grafana
 ### Acesse o dashboard do node exporter e faça o download
-[Node Dashboard](https://grafana.com/grafana/dashboards/1860)
+- [Node Dashboard](https://grafana.com/grafana/dashboards/1860)
 - Importe o dashboard
 <div style='display: inline-block'>
    <img align="center" alt="Python" src='grafana-img/img-01.png' />
