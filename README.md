@@ -54,7 +54,7 @@ $ ifconfig
 $ sudo nano /etc/prometheus/prometheus.yml
 ```
 
-### Agora acesse docker e inicie os containers
+### Agora acesse docker e inicie os container's
 
 ```
 $ cd docker
@@ -68,7 +68,7 @@ $ sudo docker ps
 ## Cheque se Server Prometheus foi levantado
 
 - Acesse http://localhost:9090
-- Verifique os targerts
+- Verifique os targets
 
 ## Cheque se o Grafana Server foi levantado
 
